@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/img/bg.jpg) no-repeat;
+    background-size:cover;
+  }
+  .box{
+    width: 800px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    width: 260px;
+    height: 355px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h2{
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+ .box p{
+    text-align: justify;
+  }
+
+
+ .card_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+.card_box img{
+    width: 70px;
+    height: 75px;
+}
+.contact_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.contact_box img{
+    width: 70px;
+    height: 75px;
+}
+.contact_box a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    padding-top: 40px;
+}
+
